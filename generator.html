@@ -8,8 +8,22 @@
     <title>Password generator</title>
 </head>
 <body>
-    <label>Request your password:</label>
-    <button type="button" id="myBtn" value="Request">Request</button>
-    <script src="code.js"></script>
+    <div class="container">
+        <label>Password Generator</label>
+            <form>
+            <p for="includeUppercase">Include uppercase</p>
+            <input type="checkbox" id="includeUppercase">
+
+            <p for="includeNumbers">Include numbers</p>
+            <input type="checkbox" id="includeNumbers">
+
+            <p for="includeSymbols">Include symbols</p>
+            <input type="checkbox" id="includeSymbols">
+    
+            <button type="button" id="myBtn">Request</button>
+
+            <script src="code.js"></script>
+        </form>
+    </div>
 </body>
 </html>

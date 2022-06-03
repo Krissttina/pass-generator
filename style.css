@@ -1,11 +1,37 @@
-label{
-    margin: 200px 20px;
-    margin-left: 200px;
-    font-style: bold;
+body{
+    background-color: rgb(72, 110, 119);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+form{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(14, 54, 54);
+    row-gap: 1rem;
+    column-gap: 3rem;
+    border-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    margin: 200px 20px;
+    margin-left: 50px;
+    font-style: bold;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+  }  
+
+  p{
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+  } 
+
 button{
-    margin-top: 200px;
+    margin: 200px 50px 50px 50px;
     padding: 10px 10px;
     background-color: aquamarine;
     border-radius: 8px;
