@@ -1,0 +1,13 @@
+label{
+    margin: 200px 20px;
+    margin-left: 200px;
+    font-style: bold;
+}
+
+button{
+    margin-top: 200px;
+    padding: 10px 10px;
+    background-color: aquamarine;
+    border-radius: 8px;
+    text-align: center;
+}
