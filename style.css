@@ -6,34 +6,52 @@ body{
 }
 
 form{
-    display: grid;
-    grid-template-columns: auto auto;
-    background-color: rgb(14, 54, 54);
-    row-gap: 1rem;
-    column-gap: 3rem;
-    border-color: black;
-    justify-content: center;
-    align-items: center;
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: rgb(14, 54, 54);
+  row-gap: 1rem;
+  column-gap: 3rem;
+  justify-content: center;
+  align-items: center;
 }
 
-label{
-    margin: 200px 20px;
-    margin-left: 50px;
-    font-style: bold;
-    font-size: 30px;
-    color: rgb(255, 255, 255);
-  }  
+.title {
+  margin-top: 200px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
 
-  p{
-    color: rgb(255, 255, 255);
-    justify-content: center;
-    align-items: center;
-  } 
+label {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
 
-button{
-    margin: 200px 50px 50px 50px;
-    padding: 10px 10px;
-    background-color: aquamarine;
-    border-radius: 8px;
-    text-align: center;
+.number-input {
+  width: 2rem;
+}
+
+.password-display {
+  background-color: white;
+  color: black;
+  padding: 1rem;
+  border: 1px solid #333;
+  height: 2rem;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-break: break-all;
+  border-radius: .5rem;
+}
+
+.btn {
+  margin-top: 20px;
+  grid-column: span 2;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: .5rem 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 1rem;
 }
