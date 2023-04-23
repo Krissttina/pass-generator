@@ -1,18 +1,21 @@
 body{
-    background-color: rgb(72, 110, 119);
+    background-color: #00889B;
     display: flex;
-    align-items: center;
     justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 form{
   display: grid;
   grid-template-columns: auto auto;
-  background-color: rgb(14, 54, 54);
+  background-color: #21677D;
+  width: 27rem;
+  height: 14rem;
   row-gap: 1rem;
   column-gap: 3rem;
   justify-content: center;
   align-items: center;
+  border-radius: 9px;
 }
 
 .title {
@@ -22,7 +25,6 @@ form{
 }
 
 label {
-  font-weight: bold;
   color: rgb(255, 255, 255);
 }
 
@@ -36,7 +38,7 @@ label {
   padding: 1rem;
   border: 1px solid #333;
   height: 2rem;
-  width: 350px;
+  width: 397px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,13 +47,16 @@ label {
 }
 
 .btn {
-  margin-top: 20px;
-  grid-column: span 2;
   background-color: transparent;
   border: 2px solid white;
   color: white;
-  padding: .5rem 1rem;
+  padding: 7px 25px;
   font-weight: bold;
   cursor: pointer;
   border-radius: 1rem;
+}
+
+.btn:hover{
+  background-color: aliceblue;
+  color: #000;
 }
